@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121430"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VPNmin"
+        android:textColor="#A855F7"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Подключить"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#6366F1"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:id="@+id/tvSelectedLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⚡ Lag rich"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnSelectServer"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Выбрать Сервер  >"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#1E224F"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
